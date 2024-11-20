@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src='main.js'></script>
+
+    <style>        
+
+        body{
+
+            display: flex;
+            flex-direction: column;            
+            background-image: url(backgroundImage4.jpg);
+            background-size: contain;
+            margin: 0;            
+
+        }
+
+        #menufixo {
+
+            width: 100%;
+            height: 5%;
+            position: fixed;
+
+        }
+
+        #conteudo1{
+
+            padding-top: 10%;  
+            color: aliceblue;          
+            
+        }
+
+        #conteudo2{
+
+            padding-top: 5%;  
+            background-color: aliceblue;          
+
+        }
+
+        #conteudo3{
+
+            padding-top: 5%;
+            background-color: aliceblue;            
+
+            }
+
+        #videos1{
+
+            padding-top: 5%; 
+            padding-bottom: 5%;                                   
+
+        }
+
+        #video1, #video2, #video3 {
+
+            width: 25%;
+            aspect-ratio: 1 / 1;
+            margin-left: 5%;
+            border-radius:5%;
+
+        }
+
+        #images1{
+
+           padding-top: 5%; 
+           padding-bottom: 5%; 
+           background-color: aliceblue;                                  
+
+        }
+
+        #site1, #site2, #site3, #site4 {
+
+            width: 15%;
+            aspect-ratio: 1 / 2;
+            margin-left: 8%;
+            border-radius: 5%;            
+
+        }
+
+        #videos2{
+
+        padding-top: 5%;  
+        padding-bottom: 5%;
+        background-color: aliceblue;                                   
+
+        }
+
+        #videoYoutube1, #videoYoutube2{
+
+            width: 35%;
+            aspect-ratio: 4 / 3;
+            margin-left: 5%;
+            border-radius: 5%;
+            
+        }
+
+        h1, h2, p{
+
+            width: 60%;            
+            padding-left: 5%;            
+
+        }
+
+        footer{
+
+            background-color: rgb(179, 179, 179);
+            padding-top: 2%;
+            padding-bottom: 5%;
+
+        }
+
+        .footerText {
+
+            font-family:'Courier New', Courier, monospace;
+            font-size: small;
+            color: grey;
+
+        }
+
+        .siteText {
+
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size:xx-large;
+            
+
+        }
+
+        .bloco2 {
+
+            background-image: url(backgroundImage5.jpg);
+            background-size:auto;
+            
+
+        }
+
+        #Icons{ 
+            
+            padding-left: 35%;                                      
+
+        }
+        
+
+        #facebookIcon, #linkedIcon, #instagramIcon{
+
+            font-size: 400%;           
+            margin-left: 5%;
+            margin-bottom: 5%;
+
+        }
+
+        #facebookIcon, #linkedIcon, #instagramIcon:hover {
+
+            cursor: pointer;
+
+        }         
+
+    </style>
+</head>
+<body>   
+
+    <div id = "conteudo1">
+
+        <p class="siteText">César Luiz Cabral</p>
+        <h1 class="siteText">Full Stack Developer and 3d Artist</h1>
+        <h2 class="siteText">Java, Spring, Hybernate, SQL, Javascript, HTML, CSS, Autodesk Maya, Photoshop, Unity 3D</h2>
+        <p class="siteText">Come and see what I'm currently working on</p>
+
+    </div>
+
+    <div id = "videos1">
+
+        <img id="video1" src="videoSpringApp.gif" alt="">
+        <img id="video2" src="cssStudy.gif" alt="">
+        <img id="video3" src="postStudies.gif" alt="">
+
+    </div>    
+
+    <div id = conteudo2 class="bloco2">
+
+        <h1 class="siteText">
+            I am a Digital Games graduate currently pursuing a postgraduate degree in Full Stack Development.
+            My knowledge includes Java, Spring, SQL, JavaScript, HTML, and CSS, enabling me to develop robust
+             and efficient web applications. With hands-on experience in both front-end and back-end technologies,
+              I am passionate about creating user-friendly solutions that align with modern development standards.
+        </h1>
+        <h2 class="siteText">
+            See some of my previous works...
+        </h2>       
+
+    </div>
+
+    <div id = "images1" class="bloco2">
+
+        <img id="site1" src="alice.png" alt="">
+        <img id="site2" src="Obrian.png" alt="">
+        <img id="site3" src="ronaldo.png" alt="">
+        <img id="site4" src="tamara.png" alt="">
+
+    </div>
+
+    <div id="conteudo3" class="bloco2">
+
+        <h1 class="siteText">
+            I'm also a 3d artist and worked on several CGI projects that gave me solid experience in design techniques and tools,
+            here's some of them...
+        </h1>
+
+    </div>
+
+    <div id="videos2" class="bloco2">
+
+        <iframe id="videoYoutube1" src="https://www.youtube.com/embed/V44bFOdWnvM?si=_RmywoPf8VjfvC12" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+    
+        <iframe id="videoYoutube2" src="https://www.behance.net/embed/project/61276307?ilo0=1" frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+        
+
+    </div>
+    
+</body>
+
+<footer>    
+
+    <div id="Icons">
+
+        <i id="facebookIcon" class="fa-brands fa-facebook"></i>   
+        <i id="linkedIcon" class="fa-brands fa-linkedin"></i> 
+        <i id="instagramIcon" class="fa-brands fa-instagram"></i>
+
+        <h2 class= "footerText"> More CGI Works here https://www.behance.net/Cesarcabral </h2>
+        <h2 class= "footerText">GitHub: https://github.com/CesarCabral1986</h2>        
+        <h2 class= "footerText">cesarcabral@outlook.com</h2>
+        <h2 class= "footerText">Tel: 55 31 986601585</h2>
+        <h2 class= "footerText">2024 César Cabral. All Rights Reserved</h2>
+
+
+    </div>
+
+</footer>
+</html>
